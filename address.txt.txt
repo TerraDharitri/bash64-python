@@ -1,0 +1,215 @@
+old erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzllls8a5w6u 9 times in below folder 
+new moa1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzllls29jpxv
+1.contracts/core/wmoax-swap/interaction/snippets.sh
+2.contracts/examples/multisig/interact/src/multisig_interact.rs
+3.contracts/feature-tests/composability/transfer-role-features/interactions/snippets.sh
+4.contracts/feature-tests/rust-snippets-generator-test/interact-rs/src/interactor_main.rs
+5.framework/base/src/dct/system_sc_proxy.rs
+6.framework/meta/src/cmd/contract/generate_snippets/snippet_templete_gen.rs
+7.framework/senario/src/scenario/model/transaction/tx_response.rs
+8.sdk/scenario-formate/tests/interpeter_test.rs
+9.vm/src/tx_execution/system_sc.rs
+
+
+
+
+
+
+folder framework/scenario/src/scenario/model/transaction/tx_response
+
+test_with_tx_that_has_sc_result()
+old erd14r7m6drneg69jyxvxxnrsss6x5gg2cqqwreyhdwanj0fcza0ynnq5jmy4g 9 times
+new moa14r7m6drneg69jyxvxxnrsss6x5gg2cqqwreyhdwanj0fcza0ynnqe2atfc
+
+old erd1qqqqqqqqqqqqqpgq5400a82at6ttplyrdhyn8kk9lhxaed5d0n4s9s77kz 11 times 
+new moa1qqqqqqqqqqqqqpgq5400a82at6ttplyrdhyn8kk9lhxaed5d0n4sggc32j
+
+old erd1qqqqqqqqqqqqqpgquu5rsa4ee6l4azz6vdu4hjp8z4p6tt8m0n4suht3dy 3 times
+new moa1qqqqqqqqqqqqqpgquu5rsa4ee6l4azz6vdu4hjp8z4p6tt8m0n4s30d735
+
+
+
+test_with_tx_that_has_no_sc_result()
+
+old erd1qqqqqqqqqqqqqpgq4nlkk7jwhqgp4r08lal46tqt70jdv0685u7qrr3l2d 10 times 
+new moa1qqqqqqqqqqqqqpgq4nlkk7jwhqgp4r08lal46tqt70jdv0685u7qwmhska
+
+old erd1uh67c2lkhyj4vh73akv7jky9sfgvus8awwcj64uju69mmfne5u7q299t7g 5 times 
+new moa1uh67c2lkhyj4vh73akv7jky9sfgvus8awwcj64uju69mmfne5u7q8aryzc
+
+
+test_with_multi_contract_same_shard_tx_that_has_no_sc_result()
+        
+erd1qqqqqqqqqqqqqpgqshqmekudxlxwp0d9j368etjamr5dw7k45u7qx40w6h 4 times
+
+
+test_with_multi_contract_cross_shard_tx_that_has_no_callback()
+
+erd1qqqqqqqqqqqqqpgqllqglpjdrz5kn3m0k9uf9hdqjmg3xdhk6r7se3wvlk 24 times
+
+
+
+folder tools/mxpy-snippet-generator/src/mx_snippet_generator/main 
+
+erd1dyxrt6ky32hpvqh9w9kgt262z4c6su65myzy33styw47m9nkrplqrtnc5r 5 times 
+
+
+erd1qqqqqqqqqqqqqpgqju6muu3kj2uqpqwz798g2jeepyn8jwn5rkqsgwvu0x 7 times 
+
+
+
+erd1qqqqqqqqqqqqqpgqfzydqmdw7m2vazsp6u5p95yxz76t2p9rd8ss0zp9ts 2 times in below folders 
+1. sdk/core/examples/accounts.rs/main 
+2. sdk/core/examples/tx_default_args.rs 
+
+
+erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx 4 times in below folders
+1. contracts/examples/crowdfunding/interaction/devent_snippents.sh
+2. contracts/examples/crowdfunding-dct/interaction/testnet_snippets.sh
+3.framework/scenario/src/test_wallets/bob.pem
+
+erd1l453hd0gt5gzdp7czpuall8ggt2dcv5zwmfdf3sd3lguxseux2fsmsgldz 2 times in below folder 
+1. contracts/examples/crowdfunding-dct/interaction/alice.pem 
+
+
+
+erd1qqqqqqqqqqqqqpgqcy2wua5cq59y6sxqj2ka3scayh5e5ms7cthqht8xtp 1 time in below folder 
+1. contracts/examples/multisig/interact/src/multisig_interact_wmoax.rs
+
+
+
+old erd1qyu5wthldzr8wx5c9ucg8kjagg0jfs53s8nr3zpz3hypefsdd8ssycr6th 6 times in below folders 
+new moa1qyu5wthldzr8wx5c9ucg8kjagg0jfs53s8nr3zpz3hypefsdd8ssfq94h8
+1.framework/secnario/src/tset_wallets/allice.pem
+2.sdk/core/tests/allice.pem
+3.sdk/core/tests/wallet_test.rs
+4.sdk/scenario-formate/tests/interputer_test.rs
+
+
+
+old erd1k2s324ww2g0yj38qn2ch2jwctdy8mnfxep94q9arncc6xecg3xaq6mjse8 2 times in below folder 
+1. framework/scenario/src/test_wallets/carol.pem 
+
+
+
+
+old "erd1kyaqzaprcdnv4luvanah0gfxzzsnpaygsy6pytrexll2urtd05ts9vegu7" 2 times in below folder 
+1. framework/scenario/src/tset_wallets/dan.pem 
+
+
+old erd18tudnj2z8vjh0339yu3vrkgzz2jpz8mjq0uhgnmklnap6z33qqeszq2yn4 2 times in below folder 
+1. framework/scenario/src/tset_wallets/eve.pem 
+
+
+old erd1kdl46yctawygtwg2k462307dmz2v55c605737dp3zkxh04sct7asqylhyv 2 times in below folder 
+1.framework/scenario/src/tset_wallets/frank.pem
+
+
+
+old erd1r69gk66fmedhhcg24g2c5kn2f2a5k4kvpr6jfw67dn2lyydd8cfswy6ede 2 times in below folder 
+1.framework/scenario/src/tset_wallets/grace.pem 
+
+
+
+old erd1dc3yzxxeq69wvf583gw0h67td226gu2ahpk3k50qdgzzym8npltq7ndgha 2 times in below folder 
+1.framework/scenario/src/tset_wallets/heidi.pem 
+
+
+
+old erd13x29rvmp4qlgn4emgztd8jgvyzdj0p6vn37tqxas3v9mfhq4dy7shalqrx 2 times in below folder 
+1.framework/scenario/src/tset_wallets/ivan.pem 
+
+old erd1fggp5ru0jhcjrp5rjqyqrnvhr3sz3v2e0fm3ktknvlg7mcyan54qzccnan 2 times in below folder 
+1.framework/scenario/src/tset_wallets/judy.pem
+
+
+old erd1z32fx8l6wk9tx4j555sxk28fm0clhr0cl88dpyam9zr7kw0hu7hsx2j5242 2 times in below folder 
+1.framework/scenario/src/tset_wallets/mallory.pem 
+
+
+old erd1uv40ahysflse896x4ktnh6ecx43u7cmy9wnxnvcyp7deg299a4sq6vaywa 2 times in below folder 
+1.framework/scenario/src/tset_wallets/mike.pem 
+
+
+old erd1932eft30w753xyvme8d49qejgkjc09n5e49w4mwdjtm0neld797su0dlxp 1 time in below folder 
+sdk/core/examples/account_storage.rs 
+
+
+
+old erd1pdv0h3ddqyzlraek02y5rhmjnwwapjyhqm983kfcdfzmr6axqhdsfg4akx 1 time in below folder 
+1. sdk/core/examples/get_dct_tockens.rs
+
+
+old erd1rh5ws22jxm9pe7dtvhfy6j3uttuupkepferdwtmslms5fydtrh5sx3xr8r 2 times in below folder 
+1.sdk/core/examples/tx_cost.rs
+
+
+
+old erd1qqqqqqqqqqqqqpgqhn3ae8dpc957t7jadn7kywtg503dy7pnj9ts3umqxx 1 time in below folder 
+1.sdk/core/examples/vm_query.rs
+
+old erd1qqqqqqqqqqqqqpgqyfjjn43spw7teklwtpz4x5waygq2mluyj9ts0mdwn6 1 time in below folder 
+1.sdk/core/src/data/address.rs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
