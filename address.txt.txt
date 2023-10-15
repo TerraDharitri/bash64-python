@@ -19,23 +19,23 @@ folder framework/scenario/src/scenario/model/transaction/tx_response
 
 test_with_tx_that_has_sc_result()
 old erd14r7m6drneg69jyxvxxnrsss6x5gg2cqqwreyhdwanj0fcza0ynnq5jmy4g 9 times
-new moa14r7m6drneg69jyxvxxnrsss6x5gg2cqqwreyhdwanj0fcza0ynnqe2atfc
+new 
 
 old erd1qqqqqqqqqqqqqpgq5400a82at6ttplyrdhyn8kk9lhxaed5d0n4s9s77kz 11 times 
 new moa1qqqqqqqqqqqqqpgq5400a82at6ttplyrdhyn8kk9lhxaed5d0n4sggc32j
 
 old erd1qqqqqqqqqqqqqpgquu5rsa4ee6l4azz6vdu4hjp8z4p6tt8m0n4suht3dy 3 times
-new moa1qqqqqqqqqqqqqpgquu5rsa4ee6l4azz6vdu4hjp8z4p6tt8m0n4s30d735
+new 
 
 
 
 test_with_tx_that_has_no_sc_result()
 
 old erd1qqqqqqqqqqqqqpgq4nlkk7jwhqgp4r08lal46tqt70jdv0685u7qrr3l2d 10 times 
-new moa1qqqqqqqqqqqqqpgq4nlkk7jwhqgp4r08lal46tqt70jdv0685u7qwmhska
+new 
 
 old erd1uh67c2lkhyj4vh73akv7jky9sfgvus8awwcj64uju69mmfne5u7q299t7g 5 times 
-new moa1uh67c2lkhyj4vh73akv7jky9sfgvus8awwcj64uju69mmfne5u7q8aryzc
+new 
 
 
 test_with_multi_contract_same_shard_tx_that_has_no_sc_result()
@@ -73,7 +73,8 @@ erd1l453hd0gt5gzdp7czpuall8ggt2dcv5zwmfdf3sd3lguxseux2fsmsgldz 2 times in below 
 
 
 
-erd1qqqqqqqqqqqqqpgqcy2wua5cq59y6sxqj2ka3scayh5e5ms7cthqht8xtp 1 time in below folder 
+old erd1qqqqqqqqqqqqqpgqcy2wua5cq59y6sxqj2ka3scayh5e5ms7cthqht8xtp 1 time in below folder 
+new moa189n9gzenf4d5p9x0368e3wsjnytll9ngkr6z8phd08073elhrgldz8xdq6
 1. contracts/examples/multisig/interact/src/multisig_interact_wmoax.rs
 
 
