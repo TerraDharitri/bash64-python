@@ -25,6 +25,38 @@ new address for for acc 0 add_indx 1 moa1gyugtm9skpv028d3xcjk3fk32mz05mf3ph4l9na
 
 
 
+use std::str;
+use pem;
+
+const PRIVATE_KEY_LENGTH: usize = 64;
+
+fn from_pem_file_contents(contents: &str) -> Result<String, Box<dyn std::error::Error>> {
+    let x = pem::parse(contents)?;
+    eprintln!("x is: {:?}", x);
+    let x = x.contents[..PRIVATE_KEY_LENGTH].to_vec();
+    eprintln!("xVc is: {:?}", x);
+    let priv_key_str = str::from_utf8(x.as_slice())?;
+
+    Ok(priv_key_str.to_string())
+}
+
+fn main() {
+    let contents = "-----BEGIN PRIVATE KEY for erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx-----\nYjhjYTZmODIwM2ZiNGI1NDVhOGU4M2M1Mzg0ZGEwMzNjNDE1ZGIxNTViNTNmYjVi\nOGViYTdmZjVhMDM5ZDYzOTgwNDlkNjM5ZTVhNjk4MGQxY2QyMzkyYWJjY2U0MTAy\nOWNkYTc0YTE1NjM1MjNhMjAyZjA5NjQxY2MyNjE4Zjg=\n-----END PRIVATE KEY for erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx-----";
+    
+    match from_pem_file_contents(contents) {
+        Ok(priv_key) => {
+            println!("Private Key: {}", priv_key);
+        }
+        Err(err) => {
+            eprintln!("Error: {}", err);
+        }
+    }//gyughjhg
+}
+
+
+
+
+
 
 
 
