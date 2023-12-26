@@ -1,7 +1,7 @@
 import base64
 import binascii
 
-base64_value = "YjU4YTRmMjVlMzQ0ZThmOTAxMzk0NzJlZmY2ODg2NzcxYTk4MmYzMDgzZGE1ZDQy"
+base64_value = "ZDRkYzMyODI3NmQyZDRjNjBkOGZkMWMzNDMzYzMyOTM"
 byte_data = base64.b64decode(base64_value)
 byte_list = list(byte_data)
 print("List of Bytes:", byte_list)

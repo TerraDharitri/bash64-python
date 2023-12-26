@@ -21,7 +21,7 @@ class Address:
 
     def to_bech32_string(self):
         words = bech32.convertbits(bytes(self.bytes), 8, 5, True)
-        return bech32.bech32_encode("erd", words)
+        return bech32.bech32_encode("moa", words)
 
     def is_valid(self):
         return len(self.bytes) == 32
@@ -29,7 +29,7 @@ class Address:
     def to_public_key(self):
         return self.bytes.hex()
 
-public_key_hex = "8049d639e5a6980d1cd2392abcce41029cda74a1563523a202f09641cc2618f8"
+public_key_hex = "690c35eac48aae1602e5716c85ab4a1571a87354d90448c60b23abed9676187e"
 public_key_bytes = bytes.fromhex(public_key_hex)
 address = Address.from_bytes(public_key_bytes)
 print('Bech32 Address:', address.to_bech32_string())

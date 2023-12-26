@@ -20,7 +20,7 @@ class PublicKey:
         # Implement address generation if needed
         pass
 
-private_key_hex = "b8ca6f8203fb4b545a8e83c5384da033c415db155b53fb5b8eba7ff5a039d639"
+private_key_hex = "1fe4009549b380f23629eedd69d3224afbe83f5d5d30f49bb3252e61c383a8f8"
 private_key = bytes.fromhex(private_key_hex)
 public_key = PublicKey.from_private_key(private_key)
 
