@@ -22,6 +22,17 @@
 
 # print("" in ls)
 
+#repos 
+# open-modules
+#xmodules
+#raphtory
+#raphtory-graphql
+#elrond-wasm-sc-dns
+#elrond-sc-wegld-swap
+#elrond-sdk-erds
+#elrond-intract-snippets
+#elrond-rust
+#elrond-wasm-module-dns
 
 # hexv = {
 #    "MULTIVERSX" :"4d554c54495645525358",
@@ -41,7 +52,7 @@
 #    "Moax" : "4d6f6178",
 #    "MOAX" : "4d4f4158"
 # }
-
+#crates.io api tocken ciorFtnJRK1N6z3y4SLbak07GHhgtHFTg1S
 # print(len("aaaaaaaaaaaaaaaaaaaaaaaaaa.dharitri"))
 
 
