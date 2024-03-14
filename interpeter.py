@@ -22,17 +22,17 @@
 
 # print("" in ls)
 
+#[payment_nonce] endpoint argument annotation
+#[payable] annotation no longer allowed without argument
+
 #repos 
 # open-modules
 #xmodules
 #raphtory
 #raphtory-graphql
-#elrond-wasm-sc-dns
-#elrond-sc-wegld-swap
-#elrond-sdk-erds
-#elrond-intract-snippets
 #elrond-rust
-#elrond-wasm-module-dns
+#feruca
+
 
 # hexv = {
 #    "MULTIVERSX" :"4d554c54495645525358",
@@ -46,11 +46,21 @@
 #    "ESDT" : "45534454",
 #    "DCT" : "444354",
 #    "esdt" : "65736474",
+#    "dct"  : "646374"
 #    "egld" : "65676c64",
+#    "moax" : "6d6f6178"
 #    "Egld" : "45676c64",
-#    "EGLD" : "45474c44",
 #    "Moax" : "4d6f6178",
+#    "EGLD" : "45474c44",
 #    "MOAX" : "4d4f4158"
+#    "mandos": "6d616e646f73"
+#    "Mandos": "4d616e646f73"
+#    "MANDOS": "4d414e444f53"
+#    "erdpy": 6572647079
+#    "Erdpy": 4572647079
+#    "ERDPY": 4552445059
+#    "erdjs": 6572646a73
+
 # }
 #crates.io api tocken ciorFtnJRK1N6z3y4SLbak07GHhgtHFTg1S
 # print(len("aaaaaaaaaaaaaaaaaaaaaaaaaa.dharitri"))
@@ -142,9 +152,25 @@
 # p = "Anil"
 
 
-no_bunks = int(input())
-bike_with_intial_petrol = input().split()
-oil_bunks = list(map(int, input().split()))
 
-print(oil_bunks)
 
+
+
+from collections import Counter
+
+def count_equal_substrings(input_str):
+    count = 0
+    length = len(input_str)
+    for i in range(length):
+        for j in range(i + 1, length + 1):
+            substring = input_str[i:j]
+            mid = len(substring) // 2
+            first_half = substring[:mid]
+            second_half = substring[mid:]
+            if Counter(first_half) == Counter(second_half):
+                count += 1
+    return count
+
+input_str = "373733"
+output = count_equal_substrings(input_str)
+print( output)
