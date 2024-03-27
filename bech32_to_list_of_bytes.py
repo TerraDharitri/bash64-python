@@ -1,7 +1,7 @@
 import bech32
 
 
-bech32_string = "erd1flqg2zf3knya94lcupscdwmrud029mes8a85r202rvwpzjyk5tjqxt8dxu"
+bech32_string = "erd1qqqqqqqqqqqqqpgql3ustfa2ac3d47y496865xkfrcxy48465dsqfzmxx5"
 
 hrp, data = bech32.bech32_decode(bech32_string)
 bytes_list = bech32.convertbits(data, 5, 8, False)
