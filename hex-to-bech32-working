@@ -1,0 +1,25 @@
+import bech32
+
+def hex_to_bech32(hex_string, prefix="drt"):
+    try:
+        # Convert hex string to bytes
+        hex_bytes = bytes.fromhex(hex_string)
+        
+        # Convert bytes from 8-bit groups to 5-bit groups
+        data = bech32.convertbits(list(hex_bytes), 8, 5, True)
+        
+        if data is None:
+            return "INVALID"
+        
+        # Encode the data into Bech32 format
+        bech32_string = bech32.bech32_encode(prefix, data)
+        return bech32_string
+    except ValueError:
+        return "INVALID"
+
+# Example usage
+hex_string = "233300000000000000000000000000000002333000000000000000000001ffff"  # Replace with your hex string
+prefix = "drt"  # Replace with your desired prefix
+result = hex_to_bech32(hex_string, prefix)
+print(f"Hex: {hex_string}")
+print(f"Bech32: {result}")

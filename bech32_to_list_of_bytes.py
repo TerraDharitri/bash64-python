@@ -1,7 +1,7 @@
 import bech32
 
 
-bech32_string = "erd1qqqqqqqqqqqqqpgql3ustfa2ac3d47y496865xkfrcxy48465dsqfzmxx5"
+bech32_string = "drt109vw87y3tmmxps242wlg5vra8e2jvphq4m5y95fqxs4y7av7dqeq7w9x5t"
 
 hrp, data = bech32.bech32_decode(bech32_string)
 bytes_list = bech32.convertbits(data, 5, 8, False)
@@ -11,7 +11,7 @@ print("List of bytes:", bytes_list)
 byte_list = bytes_list
 
 data = bech32.convertbits(byte_list, 8, 5, True)
-hrp = "moa"
+hrp = "drt"
 bech32_string = bech32.bech32_encode(hrp, data)
 
 print("Bech32 Value:", bech32_string)

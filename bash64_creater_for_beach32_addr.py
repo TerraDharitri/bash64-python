@@ -13,7 +13,7 @@ def base64_decode(encoded_string):
         return None
 
 # Base64-encoded string
-base64_encoded_string = "NDEzZjQyNTc1ZjdmMjZmYWQzMzE3YTc3ODc3MTIxMmZkYjgwMjQ1ODUwOTgxZTQ4YjU4YTRmMjVlMzQ0ZThmOTAxMzk0NzJlZmY2ODg2NzcxYTk4MmYzMDgzZGE1ZDQyMWYyNGMyOTE4MWU2Mzg4ODIyOGRjODFjYTYwZDY5ZTE="
+base64_encoded_string = "RENEVFRyYW5zZmVyQDQzNGQ0ZjQxMmQzOTMyMzgzNDM5MzJAMDNlOEA2Mjc1Nzk0MzY4NjU3Mzc0QGEwMDAwMDAw"
 
 # Decode the base64-encoded string
 decoded_data = base64_decode(base64_encoded_string+"==")
@@ -21,13 +21,13 @@ decoded_data = base64_decode(base64_encoded_string+"==")
 if decoded_data is not None:
     print("Decoded data:", decoded_data)
 
-    src = "413f42575f7f26fad3317a778771212fdb80245850981e48b58a4f25e344e8f90139472eff6886771a982f3083da5d421f24c29181e63888228dc81ca60d69e1"    
+    src = ""    
     byte_data = src.encode('utf-8')
     hex_value = binascii.hexlify(byte_data).decode('utf-8')
 
     print("hex value", hex_value)
 
-    new_has = "3431336634323537356637663236666164333331376137373837373132313266646238303234353835303938316534386235386134663235653334346538663930313339343732656666363838363737316139383266333038336461356434323166323463323931383165363338383832323864633831636136306436396531"
+    new_has = ""
 
     byte_data = binascii.unhexlify(new_has)
 
