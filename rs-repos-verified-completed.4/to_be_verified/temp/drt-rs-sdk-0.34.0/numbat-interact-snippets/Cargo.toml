@@ -1,0 +1,33 @@
+[package]
+name = "numbat-interact-snippets"
+version = "0.1.0"
+edition = "2018"
+
+authors = [
+    "Andrei Marinica <andrei.marinica@dharitri.org>",
+    "Numbat Network <contact@dharitri.org>",
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/NumbatNetwork/numbat-wasm-rs"
+homepage = "https://dharitri.org/"
+documentation = "https://docs.dharitri.org/"
+description = "Numbat framework for building smart contract interaction snippets"
+keywords = ["numbat", "blockchain", "contract", "snippets"]
+categories = ["cryptography::cryptocurrencies"]
+
+[dependencies]
+tokio = { version = "1.12.0", features = ["full"] }
+# numbat-sdk-drtrs = "0.2.0"  // nishtha
+hex = "0.4"
+base64 = "0.13.0"
+log = "0.4.17"
+env_logger = "0.8.4" 
+
+[dependencies.numbat-wasm-debug]
+version = "=0.34.0"
+path = "../numbat-wasm-debug"
+
+[dependencies.numbat-sdk-drtrs]
+path = "../numbat-sdk-drtrs"
+

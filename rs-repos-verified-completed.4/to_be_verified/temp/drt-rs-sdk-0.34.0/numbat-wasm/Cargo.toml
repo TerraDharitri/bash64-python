@@ -1,0 +1,38 @@
+[package]
+name = "numbat-wasm"
+version = "0.34.0"
+edition = "2018"
+
+authors = ["Andrei Marinica <andrei.marinica@dharitri.org>", "Numbat Network <contact@dharitri.org>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/NumbatNetwork/numbat-wasm-rs"
+homepage = "https://dharitri.org/"
+documentation = "https://docs.dharitri.org/"
+description = "Numbat WebAssembly smart contract API"
+keywords = ["numbat", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies", "development-tools"]
+
+[features]
+num-bigint = ["numbat-codec/num-bigint"]
+alloc = ["numbat-codec/alloc"]
+ei-unmanaged = ["alloc"]
+promises = []
+big-float = []
+ei-1-2 = []
+
+[dependencies]
+wee_alloc = "0.4"
+hashbrown = "0.11.2"
+hex-literal = "0.3.1"
+bitflags = "1.3.2"
+git-version = "0.3.5"
+
+[dependencies.numbat-wasm-derive]
+version = "=0.34.0"
+path = "../numbat-wasm-derive"
+
+[dependencies.numbat-codec]
+version = "=0.12.0"
+path = "../numbat-codec"
+features = ["derive"]

@@ -1,0 +1,13 @@
+[package]
+name = "nft-minter-meta"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@dharitri.org>"]
+edition = "2018"
+publish = false
+
+[dependencies.nft-minter]
+path = ".."
+
+[dependencies.numbat-wasm-debug]
+version = "0.34.0"
+path = "../../../../numbat-wasm-debug"

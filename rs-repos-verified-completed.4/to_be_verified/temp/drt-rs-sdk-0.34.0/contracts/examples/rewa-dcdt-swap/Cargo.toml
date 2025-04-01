@@ -1,0 +1,20 @@
+[package]
+name = "rewa-dcdt-swap"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/swap.rs"
+
+[dependencies.numbat-wasm]
+version = "0.34.0"
+path = "../../../numbat-wasm"
+
+[dependencies.numbat-wasm-modules]
+version = "0.34.0"
+path = "../../../numbat-wasm-modules"
+
+[dev-dependencies.numbat-wasm-debug]
+version = "0.34.0"
+path = "../../../numbat-wasm-debug"

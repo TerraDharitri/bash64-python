@@ -1,0 +1,13 @@
+[package]
+name = "basic-features-meta"
+version = "0.0.0"
+authors = ["Andrei Marinica <andrei.marinica@dharitri.org>"]
+edition = "2018"
+publish = false
+
+[dependencies.basic-features]
+path = ".."
+
+[dependencies.numbat-wasm-debug]
+version = "0.34.0"
+path = "../../../../numbat-wasm-debug"
